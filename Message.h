@@ -6,7 +6,7 @@
 #include <vector>
 
 /**
- * Abstract function for Messages
+ * Interface for Messages (packets)
  */
 class Message {
   public:
