@@ -12,7 +12,7 @@ class Message {
   public:
     Message() = default;
     /**
-     * function to return the pointer for the array containing the int pointers
+     * function to return the words as a vector
      */
     virtual const std::vector<int>& getWords() const = 0;
 
